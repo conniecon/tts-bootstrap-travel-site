@@ -1,0 +1,80 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover{
+    background-color: #628d4e;
+    color: #fff;
+    
+}
+.JumboHeaderImg {
+    background-image: url("https://images.pexels.com/photos/531321/pexels-photo-531321.jpeg?cs=srgb&dl=asphalt-dark-dawn-endless-531321.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.jumbotron h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    color: #b4b0b0;
+}
+
+.jumbotron p {
+    font-size: 25px;
+    color: #b4b0b0;
+    text-shadow: 2px 2px black;
+
+}
+
+img {
+    margin: 0px 0px 25px 0px;
+}
+#blog {
+    margin-top: 175px;
+}
+#blog h3 {
+   font-family: 'Great Vibes', cursive; 
+   font-size: 50px;
+}
+
+.table {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.table th {
+    font-size: 20px;
+}
+
+.container-fluid a{
+    color: #628d4e;
+}
+footer {
+    background-color: #f2f2f2;
+    margin: 50px 25px 25px 25px;
+}
+#contact h2 {
+   font-family: 'Great Vibes', cursive; 
+   font-size: 50px;
+   padding-top: 50px;
+   padding-bottom: 25px;
+}
+.row-footer {
+    margin-top: 75px;
+    /* margin-bottom: 50px; */
+}
+.row-footer .box{
+    padding-top: 55px;
+}
+.row-footer .box-1{
+    padding-top: 55px;
+}
+.row-footer i {
+    color: #628d4e;
+    font-size: 40px;
+}
+.row-footer i.fa-github{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+

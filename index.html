@@ -7,121 +7,145 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Constance's Travel Blog</title>
   </head>
   <body>
 
     <!-- NAV -->
+  <nav class="">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#blog">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#table">Destinations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+    <!-- JUMBOTRON -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <!-- JUMBOTRON -->
-
-      <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          </div>
+    <div class="jumbotron JumboHeaderImg">
+      <h1 class="display-4 text-center">Constance in the World</h1>
+        <p class="lead text-center">This is my travel blog.</p>
+        
+          
+    </div>
 
       <!-- IMAGE GRID -->
 
-      <div class="container">
+      <div class="container" id="blog">
             <div class="row">
-              <div class="col-sm">
-                One of three columns
+              <div class="col-md-4">
+                <div>
+                  <a href="https://en.wikipedia.org/wiki/Iceland"><img src="assets/images/iceland-unsplash.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="text-center">
+                  <h3>Iceland</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium eius ad placeat cupiditate enim laudantium nostrum deserunt dolorum aut quas a expedita unde, ullam sapiente?</p>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Read More</button>
+                </div>
               </div>
-              <div class="col-sm">
-                One of three columns
+              <div class="col-md-4">
+                <div>
+                  <a href="https://en.wikipedia.org/wiki/Sweden"><img src="assets/images/sweden-unsplash.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="text-center">
+                  <h3>Sweden</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur in eligendi repellendus aliquid vitae, distinctio illum animi, laborum laudantium eaque delectus. Animi corporis cupiditate nulla.</p>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">Read More</button>
+                </div>
               </div>
-              <div class="col-sm">
-                One of three columns
+              <div class="col-md-4">
+                <div>
+                  <a href="https://en.wikipedia.org/wiki/Peru"><img src="assets/images/peru.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="text-center">
+                  <h3>Peru</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptates labore corporis quo ducimus iure deleniti aliquam quae accusamus, hic quod beatae tenetur, itaque assumenda!</p>
+                  <button type="button" class="btn btn-outline-secondary btn-sm ">Read More</button>
+                </div>
               </div>
             </div>
           </div>
 
     <!-- TABLE -->
-
-    <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-              </tr>
-            </thead>
+    
+    <div class="container-fluid" id="table">
+      <div class="row text-center">
+        <table class="table table-bordered table-hover table-sm">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Iceland</th>
+              <th scope="col">Sweden</th>
+              <th scope="col">Peru</th>
+            </tr>
+          </thead>
             <tbody>
               <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <th scope="row">Capital</th>
+                  <td>Reykjavik</td>
+                  <td>Stockholm</td>
+                  <td>Lima</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <th scope="row">Language</th>
+                  <td>Icelandic</td>
+                  <td>Swedish</td>
+                  <td>Quechua</td>
               </tr>
               <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
+                <th scope="row">Link</th>
+                  <td><a href="http://inspiredbyiceland.com">Tourism</a></td>
+                  <td><a href="https://sweden.nordicvisitor.com">Tourism</a></td>
+                  <td><a href="https://www.lonelyplanet.com/peru">Tourism</a></td>
               </tr>
             </tbody>
-          </table>
+        </table>
+      </div>
+    </div>
+
+    
 
     <!-- FOOTER -->
 
-    <footer class="container-fluid">
-            <div class="row">
-              <div class="col-md-4">© Good Coffee Co. 2014 </div>
+    <footer class="container-fluid" id="contact">
+            
+      <form>
+        <h2>Join my mailing list</h2>
+      </form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        
+        
+        <button type="submit" class="btn btn btn-outline-secondary btn-sm">Submit</button>
+      </form>
+
+      <div class="row row-footer">
+              <div class="col-md-4 box">© Constance Cain 2020</div>
               <div class="col-md-4">
-                <ul class="nav nav-pills">
-                  <li><a href="#">Contact Us &#124; </a></li>
-                  <li><a href="#">Get Support &#124; </a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
+                <p class="text-center"><a href="#">Follow Me</a></p>
+                <div class="text-center">
+                  <i class="fa fa-facebook-square"></i>
+                  <i class="fa fa-github"></i>
+                  <i class="fa fa-linkedin-square"></i>
+                </div>
               </div>
               <div class="col-md-4">
-                <p class="text-right"><a href="#">Follow Us</a></p>
+                 <p class="text-right box-1">Privacy Policy</p>
               </div>
             </div>
-          </footer>
+    </footer>
           
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
